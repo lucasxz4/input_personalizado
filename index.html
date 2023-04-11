@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando inputs</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form action="contato.php" method="post">
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                <div class="input-single">
+                    <input type="text" name="nome" id="nome-box" class="input" required>
+                    <label for="nome-box">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="email" id="email-box" class="input" required>
+                    <label for="email-box">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="telefone" id="tel-box" class="input" required>
+                    <label for="tel-box">Seu telefone</label>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Enviar" class="Btn">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
